@@ -8,7 +8,8 @@
 <style scoped>
 .content {
   display: flex;
-  min-height: 100vh;
+  width: 360px;
+  padding: 16px;
   line-height: 1.1;
   text-align: center;
   flex-direction: column;

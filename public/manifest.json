@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Applr",
+  "version": "1.0.0",
+  "description": "",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "48": "favicon.png"
+    }
+  },
+  "icons": {
+    "48": "favicon.png"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  }
+}
